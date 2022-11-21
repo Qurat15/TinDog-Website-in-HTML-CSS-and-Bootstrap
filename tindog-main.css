@@ -1,0 +1,194 @@
+/* ---------------------- Navbar Section ---------------------------------*/
+
+#title{
+    background-color:#ff4c68;
+}
+.main-heading{
+    font-weight: bold;
+    font-size:3.5rem;
+    line-height:1.5;
+    color:white;
+}
+
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+body{
+    font-family: 'Montserrat';
+    
+}
+.navbar{
+    padding:0 0 4.5rem 0;
+    
+}
+
+.nav-item{
+    padding:0px 18px;
+}
+
+.nav-link{
+    font-size:20px;
+    font-family: 'Montserrat-Light';
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    
+}
+
+.download-button{
+    margin:20px 10px 0 0;
+}
+
+.mobile-image{
+    
+    width:60%;    /* Now it become 60% of its parent div */
+    transform:rotate(25deg);
+    position:absolute;
+    
+  
+}
+
+
+/*--------------------------- Features Section ---------------------------- */
+
+#features{
+    text-align: center;
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+}
+
+
+h3{
+    font-family: 'Montserrat-Bold';
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+
+
+.features-explain{
+    color:#8f8f8f;
+}
+
+.features-icon{
+    color:#ef8172;
+    font-size:80px;
+    margin-bottom:16px;
+    
+}
+
+.features-icon:hover{
+    color:#ff4c68;
+}
+
+.features-class{
+    width:33%;
+    padding:5%;
+    
+}
+
+/* ------------------ Testimonials Section ---------------------------- */
+
+#testimonials{
+    background-color:#ef8172;
+    text-align:center;
+    /* padding:7% 15%; */
+    /* position:absolute;
+    z-index:1; */
+
+    
+}
+.carousel-item{
+    padding:7% 15%;
+    
+}
+
+.testimonial-text{
+    line-height:1.5;
+    font-size:2.5rem;
+    color:white; 
+
+}
+
+.girl-image, .dog-image{
+    
+    width:10%;
+    border-radius:100%;
+    margin:10px;
+}
+
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width:170px;
+    margin:20px 20px 50px;   /* top:left and right : bottom  */
+}
+
+
+/* --------------------------- Pricing Section ----------------------------*/
+
+#pricing{
+    text-align:center;
+    padding:100px;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+
+/* ---------------------------- Media Queuries Breakpoints--------------------- */
+/* MAX-width:
+     means from this width to LOWER, change below conditions */
+/* MIN-width: 
+    //  //  //  //  //   //   HIGHER, change below conditions */
+/* jesy hi iski width itni ya is sy kaam(max) ya ziada ho(min), nechy wali conditions ko change krdo */
+@media (max-width:1028px){        
+    #title{
+        text-align: center;
+    }
+    .mobile-image{
+        position:static;
+        transform:rotate(0);
+    }
+
+}
+
+
+/* -------------------------------- Call to action--------------------  */
+#cta{
+    background-color:#ff4c68;
+    text-align:center;
+    padding:80px 120px;
+    line-height: 1.5;
+}
+.cta-mainheading{
+    font-size:60px;
+    font-weight: bold;
+    color:white;
+    width:70%;
+    margin: 30px auto;
+    
+}
+
+/* ------------------------------- footer ------------------------------------- */
+#footer{
+    text-align: center;
+    margin:60px 30px;
+}
+
+.footer-icons{
+    margin:30px 20px;
+    font-size:30px;
+}
